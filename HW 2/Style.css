@@ -1,0 +1,52 @@
+html {
+    background-color: #000708;
+    color: azure;
+}
+
+h1 {
+    font-family: 'Teddy Bear',sans-serif;
+    color:red
+}
+
+h3 {
+    font-family: 'Appetite-Italic',sans-serif;
+    color: rgb(128, 255, 0);
+}
+
+.AnotherFont{
+    font-family: 'Sunday',sans-serif;
+}
+
+a {
+    color: rgb(10, 238, 10);
+}
+
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Sunday';
+	src: url('fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Appetite-Italic';
+	src: url('fonts/appetite-italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/appetite-italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/appetite-italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/appetite-italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/appetite-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/appetite-italic.svg#appetite-italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
